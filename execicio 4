@@ -1,0 +1,27 @@
+internal class Program
+{
+
+
+    static void Main(string[] args)
+    {
+        
+        Console.Write("Digite o primeiro número inteiro: ");
+        int x = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite o segundo número inteiro: ");
+        int y = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite o terceiro número inteiro: ");
+        int z = int.Parse(Console.ReadLine());
+
+       
+        if ( x < y && y > z)
+        {
+            Console.WriteLine($"O primeiro número ({x}) é menor que o segundo número ({y}) e maior que o terceiro número ({z}).");
+        }
+        else
+        {
+            Console.WriteLine($"O primeiro número ({x}) não é menor que o segundo número ({y}) e maior que o terceiro número ({z}).");
+        }
+    }
+}
