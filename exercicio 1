@@ -1,0 +1,28 @@
+using System;
+
+internal class Program
+{
+    
+        public static void Main(string[] args)
+        {
+
+        Console.WriteLine("Digite um numero inteiro :");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Digite um outro numero inteiro :");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+        if (x > y)
+        {
+            Console.WriteLine("O primeiro numero e maior que o segundo numero");
+        }
+        else
+        {
+            Console.WriteLine("O primeiro numero não e maior que o segundo numero");
+
+        }
+    
+    }
+
+        }
+ 
