@@ -1,0 +1,19 @@
+internal class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine("Digite o primeiro número:"); 
+        int x = int.Parse(Console.ReadLine());
+
+        if (x == 0) 
+
+        {
+            Console.WriteLine("O número é igual a zero");
+        }
+        else
+        {
+            Console.WriteLine("O número é diferente de zero");
+        }
+
+    }
+}
